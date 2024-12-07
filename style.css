@@ -1,0 +1,14 @@
+*{
+    box-sizing: content-box;
+    margin: 0px;
+    /*border: 10px solid green;*/
+    padding:5px;
+    font-family: 'Times New Roman', sans-serif;
+}
+.navbar{
+    
+    background-image: url("download.jpg");
+    outline-color: green;
+    /*border-style: solid;*/
+
+}
