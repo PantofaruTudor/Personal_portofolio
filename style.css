@@ -2,13 +2,65 @@
     box-sizing: content-box;
     margin: 0px;
     /*border: 10px solid green;*/
-    padding:5px;
-    font-family: 'Times New Roman', sans-serif;
+    font-family: 'Georgia', serif;
+
 }
-.navbar{
+.navbar{ 
     
-    background-image: url("download.jpg");
-    outline-color: green;
-    /*border-style: solid;*/
+    background-color: rgb(50, 58, 50);
+    height: 100px;
+    font-size: 30px;
+
+}
+
+.navbar_logo_class{
+    display: flex;
+    margin-left: 35px;
+    padding-top: 10px;
+    text-decoration: none;
+    
+
+}
+.navbar__container{
+    color: aqua;
+    display: flex;
+    align-items: flex-start;
+    padding: 20px 20px 0px 20px;
+    
+
+} 
+
+.navbar__menu{
+    display: flex;
+    flex: auto;
+    align-items: center;
+     
+    justify-content: space-between;
+    margin : 0px 300px 0px 300px;
+    font-size: 30px;
+}
+
+.navbar__links{
+    display: flex;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+
+}
+
+#navbar_logo{
+    font-weight: bold;
+    background: linear-gradient(to right,white,rgb(95, 72, 72));
+    color: transparent;
+    background-clip: text;
+    text-decoration: none;
+
+}
+.navbar__links:hover{
+    background:rgb(69, 131, 201);
+    transition: all 0.3s ease;
+    outline: auto;
 
 }
